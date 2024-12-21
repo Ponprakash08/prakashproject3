@@ -12,6 +12,7 @@ body{
 html{
     scroll-behavior: smooth;
 }
+
 /* top-bar css */
 
 .top-bar{
@@ -83,14 +84,14 @@ nav a{
     position: relative;
     left: 30px;
     background-image: url(./images/header-img.png);
-    height: 90vh;
+    height: 100vh;
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
 }
 .section-1-content{
-    margin-top: 70px; 
-    width: 800px; 
+    margin-top: 100px; 
+    
 }
 .section-1-content h1{
     font-size: 50px;
@@ -122,11 +123,13 @@ nav a{
 .section-2{
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-evenly;
-    padding: 20px;
+    justify-content: center;
+    padding: 30px;
     background-color: #f5f4f0;
     text-align: center;
     margin-bottom: 10px;
+    margin-top: 10px;
+   
 }
 .section-2-content h2{
     font-size: 35px;
@@ -136,24 +139,24 @@ nav a{
 .section-2-content p{
     text-transform: uppercase;
     margin-top: 10px;
+    margin-right: 20px;
 }
 .section-3{
-    padding: 30px;
+    padding: 10px;
     clear: both;
     display: flex;
-    height: 600px;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
     
 }
 .section-3 img{
-    height: 550px;
-    width: 550px;
-    float: left;
+    height: 500px;
+    width: 500px;
+    margin-bottom: 10px;
 }
 .section-3-content{
-   width: 100%;
-   float: right;
-   margin-left: 20px;
-   
+  width: 400px;
+   margin-left: 10px;
    
 }
 .section-3-content span{
@@ -162,7 +165,7 @@ nav a{
     font-weight: bold;
 }
 .section-3-content h2{
-    font-size: 45px;
+    font-size: 40px;
     margin: 15px 0;
     line-height: 1.4;
    
