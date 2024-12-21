@@ -15,6 +15,7 @@ html{
 /* top-bar css */
 
 .top-bar{
+    width: 100%;
     padding: 40px 60px 10px;
     background-color: white;
     display: flex;
@@ -27,7 +28,7 @@ html{
 .search-input{
     left: 400px;
 }
-.top-bar i{
+.top-bar .nav-item i{
     margin-right: 30px;
     font-size: 20px;
 }
@@ -147,7 +148,6 @@ nav a{
     height: 550px;
     width: 550px;
     float: left;
-    
 }
 .section-3-content{
    width: 100%;
