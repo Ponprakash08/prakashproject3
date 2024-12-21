@@ -7,10 +7,13 @@
 body{
     font-family: 'Times New Roman', Times, serif;
     background-color: rgb(239,238,243);
-    overflow-x: hidden;
+overflow-x: hidden;
 }
 html{
     scroll-behavior: smooth;
+}
+main{
+    overflow-x: hidden;
 }
 
 /* top-bar css */
@@ -74,7 +77,7 @@ nav a{
    align-content: center;
     text-transform: uppercase;
     text-decoration: none;
-    margin-right: 30px;
+    margin-right: 20px;
     color: #444444;
 }
 
@@ -84,19 +87,16 @@ nav a{
     position: relative;
     left: 30px;
     
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-size: cover;
 }
 .section-1-content{
     margin-top: 10px; 
     
 }
 .section-1-content h1{
-    font-size: 50px;
+    font-size: 40px;
 }
 .section-1-content p{
-    font-size: 30px;
+    font-size: 20px;
     margin-top: 20px;
 }
 .section-1-content .view-btn,.explore-btn{
@@ -116,7 +116,7 @@ nav a{
 .explore-btn{
     border: 3px solid #95ADBE;
     color: #95ADBE;
-    margin-left: 30px
+    margin-left: 10px
 }
 
 .section-2{
@@ -149,13 +149,14 @@ nav a{
     
 }
 .section-3 img{
-    height: 400px;
-    width: 400px;
+    height: 500px;
+    width: 500px;
     margin-bottom: 10px;
 }
 .section-3-content{
   width: 100%;
    margin-left: 10px;
+   text-align: center;
 }
 .section-3-content span{
     color: #ff785D ;
@@ -170,7 +171,7 @@ nav a{
 }
 .section-3-content p{
   line-height: 2;
-  text-align:justify;
+ 
   margin-bottom: 20px;
     
 }
@@ -209,7 +210,7 @@ nav a{
     padding: 20px;
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-evenly;
+    justify-content: space-around;
 }
     
 .book-div img{
