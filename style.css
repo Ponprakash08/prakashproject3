@@ -5,44 +5,51 @@
 }
 /* body css */
 body{
+    width: 100%;
     font-family: 'Times New Roman', Times, serif;
     background-color: rgb(239,238,243);
-overflow-x: hidden;
-}
+  overflow-x: hidden;
+     }
+
 html{
     scroll-behavior: smooth;
 }
-main{
-    overflow-x: hidden;
-}
+
 
 /* top-bar css */
 
 .top-bar{
     width: 100%;
-    padding: 40px 60px 10px;
+    padding: 40px 30px 10px;
     background-color: white;
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-evenly; 
+    justify-content: center;
+  
 }
 .logo{
-    left: 200px;
+    color: orangered;
+   margin-bottom: 10px;
+   margin-right: 20px;
+   text-align: center;
+   margin-left: 10px;
+   font-size: 40px;
 }
-.search-input{
-    left: 400px;
+..top-bar .nav-item{
+    float: left;
 }
 .top-bar .nav-item i{
-    margin-right: 30px;
-    font-size: 20px;
+    margin-right:20px;
+    font-size: 35px;
 }
 .search-input input{
-    padding: 15px;
+    padding: 10px;
     background-color: #efefef;
     border: 0px;
     border-top-left-radius: 5px;
     border-bottom-left-radius: 5px;
-    font-size: 15px;
+    font-size: 20px;
+    
 }
 .search-input input:focus{
     outline: 0;
@@ -53,15 +60,17 @@ main{
     border-top-right-radius: 5px;
     border-bottom-right-radius: 5px;
     background-color: #95ADBE;
-    padding: 15px;
+    padding: 10px;
     color: #fff;
     cursor: pointer;
-    font-size: 15px;
+    font-size: 20px;
+
 }
 /*navbar css*/
 .logo{
-    vertical-align: middle;
+    vertical-align: middle;   
 }
+
 nav{
     display: flex;
     flex-wrap: wrap;
@@ -73,19 +82,23 @@ nav{
     z-index: 1;
     text-align: center;
 }
+   
+
 nav a{
    align-content: center;
     text-transform: uppercase;
     text-decoration: none;
     margin-right: 20px;
     color: #444444;
+    font-size: 30px;
 }
 
 
 .section-1{
-    padding: 50px;
+    padding:80px;
     position: relative;
-    left: 30px;
+    height: auto;
+
     
 }
 .section-1-content{
@@ -96,7 +109,7 @@ nav a{
     font-size: 40px;
 }
 .section-1-content p{
-    font-size: 20px;
+    font-size: 30px;
     margin-top: 20px;
 }
 .section-1-content .view-btn,.explore-btn{
@@ -146,11 +159,10 @@ nav a{
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
-    
 }
 .section-3 img{
-    height: 500px;
-    width: 500px;
+    height: 400px;
+    width: 400px;
     margin-bottom: 10px;
 }
 .section-3-content{
@@ -167,12 +179,11 @@ nav a{
     font-size: 40px;
     margin: 15px 0;
     line-height: 1.4;
-   
 }
 .section-3-content p{
   line-height: 2;
- 
   margin-bottom: 20px;
+  font-size: 25px;
     
 }
 .section-3-content button{
