@@ -6,10 +6,10 @@
 /* body css */
 body{
     width: 100%;
-    font-family: 'Times New Roman', Times, serif;
+    font-family: serif;
     background-color: rgb(239,238,243);
   overflow-x: hidden;
-     }
+    }
 
 html{
     scroll-behavior: smooth;
@@ -100,8 +100,6 @@ nav a{
     padding:80px;
     position: relative;
     height: auto;
-
-    
 }
 .section-1-content{
     margin-top: 10px; 
@@ -137,23 +135,22 @@ nav a{
 .section-2{
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
+    justify-content: space-around;
     padding: 30px;
     background-color: #f5f4f0;
-    text-align: center;
     margin-bottom: 10px;
     margin-top: 10px;
    
 }
 .section-2-content h2{
     font-size: 35px;
-    margin-bottom: 10px;
+    margin-bottom: 20px;
     margin-right: 20px;
 }
 .section-2-content p{
     text-transform: uppercase;
     margin-top: 10px;
-    margin-right: 20px;
+    margin-right: 30px;
 }
 .section-3{
     padding: 10px;
@@ -163,19 +160,22 @@ nav a{
     justify-content: space-evenly;
 }
 .section-3 img{
-    height: 400px;
-    width: 400px;
+    height: 550px;
+    width: 550px;
     margin-bottom: 10px;
+    
 }
 .section-3-content{
   width: 100%;
    margin-left: 10px;
    text-align: center;
+   float: right;
 }
 .section-3-content span{
     color: #ff785D ;
     letter-spacing: 2px;
     font-weight: bold;
+    font-size: 20px;
 }
 .section-3-content h2{
     font-size: 40px;
@@ -204,7 +204,6 @@ nav a{
     width: 100%;
     text-align: center;
     clear: both;
-   
 }
 .section-4 span{
     color: #ff785D;
@@ -223,7 +222,7 @@ nav a{
     padding: 20px;
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-around;
+    justify-content: space-between;
 }
     
 .book-div img{
@@ -233,14 +232,12 @@ nav a{
 }
 .book-content{
     float: right;
-    width: 150px;
-    margin: 20px;
-    text-align: left;
-    padding-left: 10px; 
+    width: 200px;
+    margin: 10px;  
 }
 .book-content h3{
     font-size: 22px;
-    margin: 10px 0;
+    margin: 10px ;
 }
 .footers{
     display: flex;
