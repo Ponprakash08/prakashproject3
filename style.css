@@ -201,18 +201,17 @@ nav a{
     margin-bottom: 20px;
 }
 .books-main{
-   padding: 20px;
     display: flex;
     flex-wrap: nowrap;
-    justify-content: center;
+    justify-content: space-around;
 }
 .book-div{
     padding: 20px;
     height: 400px;
-    width: 350px;
+    width: 300px;
    border: 2px solid black;
-   margin-left: 20px;
-   margin-bottom: 20px;
+   margin-left: 10px;
+   margin-bottom: 10px;
    cursor: pointer;
 }
 .book-div:hover{
@@ -271,6 +270,7 @@ nav a{
 }
 .footer-box p{
     margin-bottom: 20px;
+    font-size: 30px;
 }
 footer{
     background-color: #1f1f1f;
@@ -296,7 +296,6 @@ footer{
     
     html{
         scroll-behavior: smooth;
-    
     }
     html,body{
         font-family: serif;
@@ -311,7 +310,7 @@ footer{
     
     .top-bar{
         width: 100%;
-        padding: 40px 30px 10px;
+        padding: 20px 15px 5px;
         background-color: white;
         display: flex;
         flex-wrap: wrap;
@@ -379,7 +378,7 @@ footer{
     }
     .section-1{
         padding:40px;
-        height: 250px;
+        height: 300px;
     }
     .section-1-content{
         margin-top: 15px;    
@@ -455,7 +454,7 @@ footer{
         font-size: 15px;
     }
     .section-3-content h2{
-        font-size: 20px;
+        font-size: 15px;
         margin: 8px 0;
         line-height: 1;
     }
@@ -467,13 +466,13 @@ footer{
         
     }
     .section-3-content button{
-        padding: 8px 13px;
+        padding: 10px 15px;
         border-radius: 3px;
         font-family: inherit;
         font-weight: bold;
         border: 0;
         color: #fff;
-        font-size: 8px;
+        font-size: 10px;
         background-color: #95ADBE;
         cursor: pointer;
     }
@@ -495,18 +494,18 @@ footer{
     .books-main{
        padding: 10px;
         display: flex;
-       overflow-y: hidden;
+       flex-wrap: nowrap;
+       justify-content: space-around;
         overflow-x: scroll;
     }
     .books-main::-webkit-scrollbar{
         display: none;
     }
     .book-div{
-        padding: 10px;
+
         height: 200px;
-        width: 175px;
+        width: 150px;
        border: 1px solid black;
-       margin-left: 30px;
        margin-bottom: 10px;
     }
     .book-div:hover{
@@ -566,6 +565,7 @@ footer{
     }
     .footer-box p{
         margin-bottom: 5px;
+        font-size: 15px;
     }
     footer{
         background-color: #1f1f1f;
