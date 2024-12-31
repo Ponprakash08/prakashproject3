@@ -280,7 +280,7 @@ footer{
     padding: 20px;
 }
 /* Mobile view */
-@media screen and (max-width:480px){
+@media screen and (max-width:600px){
     *{
         margin: 0px;
         padding: 0px;
@@ -492,7 +492,7 @@ footer{
         margin-top: 5px;
     }
     .books-main{
-       padding: 10px;
+       padding: 20px;
         display: flex;
        flex-wrap: nowrap;
        justify-content: space-around;
@@ -502,19 +502,19 @@ footer{
         display: none;
     }
     .book-div{
-
-        height: 200px;
-        width: 150px;
+        padding: 10px;
+        height: 220px;
+        width: 160px;
        border: 1px solid black;
        margin-bottom: 10px;
     }
     .book-div:hover{
-        transform: scale(1.05);
+        transform: scale(1.09);
     }
     .book-div img {
         height: 100px;
         width: 100px;
-        margin-bottom: 8px;
+        margin-bottom: 5px;
         cursor: pointer;
     }
     .book-div span{
@@ -522,11 +522,11 @@ footer{
         font-size: 10px;
     }
     .book-head {
-        font-size: 10px;
+        font-size: 8px;
         margin-bottom: 5px;
     }
     .book-para {
-        font-size: 10px;
+        font-size: 8px;
     }
     .footers{
         display: flex;
