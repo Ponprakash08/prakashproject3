@@ -78,7 +78,7 @@ nav a{
    align-content: center;
     text-transform: uppercase;
     text-decoration: none;
-    margin-right: 100px;
+    margin-right: 70px;
     color: #444444;
     font-size: 30px;
 }
@@ -202,12 +202,12 @@ nav a{
 }
 .books-main{
     display: flex;
-    flex-wrap: nowrap;
+    flex-wrap: wrap;
     justify-content: space-around;
 }
 .book-div{
     padding: 20px;
-    height: 400px;
+    height: 420px;
     width: 300px;
    border: 2px solid black;
    margin-left: 10px;
@@ -280,7 +280,7 @@ footer{
     padding: 20px;
 }
 /* Mobile view */
-@media screen and (max-width:600px){
+@media screen and (max-width:480px){
     *{
         margin: 0px;
         padding: 0px;
@@ -502,8 +502,7 @@ footer{
         display: none;
     }
     .book-div{
-        padding: 10px;
-        height: 220px;
+        height: 210px;
         width: 160px;
        border: 1px solid black;
        margin-bottom: 10px;
