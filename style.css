@@ -1,9 +1,9 @@
-*{
+/* *{ 
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
 }
-/* body css */
+/* body css 
 html,body{
         width: 100%;
         scroll-behavior: smooth;
@@ -13,7 +13,7 @@ html,body{
         padding: 0;
         overflow-x: hidden;
     }
-/* top-bar css */
+/* top-bar css 
 .top-bar{
     width: 100%;
     padding: 40px 30px 10px;
@@ -59,7 +59,7 @@ html,body{
     font-size: 20px;
     margin-top: 20px;
 }
-/*navbar css*/
+/*navbar css
 .logo{
     vertical-align: middle;   
 }
@@ -279,14 +279,14 @@ footer{
     font-size: 20px;
     padding: 20px;
 }
-/* Mobile view */
+/* Mobile view 
 @media screen and (max-width:480px){
     *{
         margin: 0px;
         padding: 0px;
         box-sizing: border-box;
     }
-    /* body css */
+    /* body c
     body{
         width: 100%;
         font-family: serif;
@@ -306,7 +306,7 @@ footer{
             overflow-x: hidden;
         }
     
-    /* top-bar css */
+    /* top-bar css 
     
     .top-bar{
         width: 100%;
@@ -353,7 +353,7 @@ footer{
         font-size: 10px;
         margin-top: 10px;
     }
-    /*navbar css*/
+    /*navbar css
     .logo{
         vertical-align: middle;   
     }
@@ -544,6 +544,7 @@ footer{
     .footer-box h4{
         font-size: 11px;
         margin-bottom: 10px;
+        bg-[#efeef3]
     }
     .footer-box-2 a{
         display: flex;
@@ -573,5 +574,5 @@ footer{
         font-size: 10px;
         padding: 10px;
     }
-}
+} */
 
